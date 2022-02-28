@@ -511,8 +511,8 @@ img.decorator5 {
     margin-top: 90px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+    gap: 184px;
 }
 
 .leftaccside {
@@ -520,10 +520,13 @@ img.decorator5 {
     flex-direction: row;
     background-image: url(./src/img/Ellipse\ 1328.png);
     background-repeat: no-repeat;
-    background-position-y: 47px;
+    background-position-y: 102px;
+    background-position-x: 28px;
+    /* background-size: 325px 285px; */
 }
 
 .p13 {
+    padding-top: 57px;
     padding-right: 20px;
     font-family: Poppins;
     font-style: normal;
@@ -554,13 +557,69 @@ img.decorator5 {
     border: 0.602457px solid #F1F1F1;
     box-sizing: border-box;
     box-shadow: 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);
+    text-align: center;
+}
+
+.acclines {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 22px;
 }
 
 span.accLine1 {
+    margin: auto;
     width: 252.24px;
     height: 10.92px;
-    left: 379.13px;
-    top: 2261.18px;
     background: #F1F1F1;
     border-radius: 65.5172px;
+}
+
+span.accLine2 {
+    margin: auto;
+    width: 228.22px;
+    height: 10.92px;
+    background: #F1F1F1;
+    border-radius: 65.5172px;
+}
+
+span.accLine3 {
+    margin: auto;
+    width: 221.67px;
+    height: 10.92px;
+    background: #F1F1F1;
+    border-radius: 65.5172px;
+}
+
+span.accLine4 {
+    margin: auto;
+    width: 228.22px;
+    height: 10.92px;
+    background: #F1F1F1;
+    border-radius: 65.5172px;
+}
+
+.rightaccside {
+    padding-top: 85px;
+    width: 358px;
+}
+
+.p15 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #222831;
+}
+
+.p16 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #425466;
 }

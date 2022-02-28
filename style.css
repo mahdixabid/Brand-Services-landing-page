@@ -302,7 +302,6 @@ li {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: #313131;
 }
 
@@ -538,7 +537,7 @@ img.decorator5 {
 }
 
 .p14 {
-    padding-top: 36px;
+    /* padding-top: 36px; */
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -622,4 +621,79 @@ span.accLine4 {
     font-size: 16px;
     line-height: 30px;
     color: #425466;
+}
+
+.services {
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    gap: 165px;
+    justify-content: flex-end;
+}
+
+.rightservside {
+    display: flex;
+}
+
+.p17 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #222831;
+}
+
+.p18 {
+    padding-top: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #425466;
+    width: 342px;
+}
+
+.p19 {
+    margin-top: -48px;
+    margin-right: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    color: #D7D7D7;
+}
+
+.search_box2 {
+    position: relative;
+    width: 383px;
+    height: 137px;
+    background: #FFFFFF;
+    border: 0.827586px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: 0px 53.6398px 38.7739px rgba(56, 56, 56, 0.0759259), 0px 31.8774px 21.0881px rgba(56, 56, 56, 0.0607407), 0px 16.5517px 10.7586px rgba(56, 56, 56, 0.05), 0px 6.7433px 5.39464px rgba(56, 56, 56, 0.0392593), 0px 1.53257px 2.60536px rgba(56, 56, 56, 0.0240741);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search input {
+    position: relative;
+    width: 315px;
+    height: 50px;
+    background: #FAFAFA;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    text-indent: 13px;
+}
+
+.inputimg {
+    position: absolute;
+    right: 32px;
+    padding: 17px 30px 15px 15px;
 }

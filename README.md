@@ -1,1 +1,1 @@
-#### This project not responsive yet 
+#### This project is not responsive yet 

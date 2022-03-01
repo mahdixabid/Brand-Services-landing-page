@@ -15,7 +15,7 @@ body {
 header {
     margin: auto;
     padding-top: 40px;
-    width: 1170px;
+    max-width: 1170px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -460,7 +460,7 @@ li {
 
 .options {
     margin: auto;
-    min-width: 1010px;
+    max-width: 1010px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -760,6 +760,7 @@ span.accLine4 {
     flex-direction: row;
     justify-content: center;
     gap: 90px;
+    position: relative;
 }
 
 .p23 {
@@ -890,4 +891,336 @@ span.bordi {
     display: flex;
     flex-direction: row;
     gap: 60px;
+}
+
+.decorator4 {
+    position: absolute;
+    right: 0;
+    top: -251px;
+}
+
+.clients {
+    position: relative;
+    margin: auto;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.p27 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.p28 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #425466;
+    padding-top: 30px;
+}
+
+.decorator6 {
+    position: absolute;
+    left: 0;
+    top: 84px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviewsboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    margin-top: 81px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 101px;
+    padding-bottom: 18px;
+}
+
+.reviewBox {
+    width: 380px;
+    height: 282px;
+    left: 110px;
+    top: 4246px;
+    background: #FFFFFF;
+    gap: 40px;
+    padding: 40px 24px 26px 32px;
+    z-index: 2;
+    margin-top: 162px;
+}
+
+.p29 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #425466;
+    padding-bottom: 24px;
+}
+
+.p30 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #313131;
+}
+
+.p31 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 100%;
+    color: #425466;
+}
+
+.reviewbk {
+    margin-top: 80px;
+    position: absolute;
+    width: 1020px;
+    height: 540px;
+    background: #F1F1F1;
+}
+
+.boxswitch {
+    margin: auto;
+    width: 120px;
+    height: 66px;
+    background: #FFFFFF;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-top: 31px;
+}
+
+.rightarrow {
+    padding: 20px 15px;
+    background: #313131;
+    box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.08);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxswitch img {
+    cursor: pointer;
+}
+
+.getStart {
+    margin-top: 220px;
+    background: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 522px;
+    position: relative;
+}
+
+.items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-1 {
+    width: 276px;
+    height: 138px;
+    position: absolute;
+    right: 0;
+}
+
+.img-2 {
+    width: 411px;
+    height: 281px;
+    position: absolute;
+    right: 0px;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.sub input {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    width: 491px;
+    height: 80px;
+    text-indent: 28px;
+    border: none;
+}
+
+.footerParent {
+    margin: auto;
+    padding-top: 134px;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 132px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.p32 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #313131;
+}
+
+.p33 {
+    padding-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #425466;
+}
+
+.p34 {
+    width: 161px;
+    height: 80px;
+    background: #0AC05E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.p35 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: -0.06em;
+    color: #313131;
+    padding-bottom: 18px;
+}
+
+.p37 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #313131;
+    padding-bottom: 18px;
+}
+
+.p38 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #425466;
+}
+
+.Socialicons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    padding-top: 54px;
+    margin-bottom: 95px;
+}
+
+.Ficon {
+    width: 34px;
+    height: 34px;
+    background: #0AC05E;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.bordi2 {
+    margin: auto;
+    width: 1170px;
+    border: 1px solid #7e7b7ba6;
+}
+
+.copyright {
+    padding-top: 35px;
+    margin: 0 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright>div {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.p40 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #425466;
+}
+
+.p41 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #425466;
 }

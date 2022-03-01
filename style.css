@@ -519,9 +519,9 @@ img.decorator5 {
     flex-direction: row;
     background-image: url(./src/img/Ellipse\ 1328.png);
     background-repeat: no-repeat;
-    background-position-y: 102px;
+    background-position-y: 107px;
     background-position-x: 28px;
-    /* background-size: 325px 285px; */
+    background-size: 325px 182px;
 }
 
 .p13 {
@@ -633,6 +633,11 @@ span.accLine4 {
 
 .rightservside {
     display: flex;
+    padding-right: 158px;
+    background-image: url(./src/img/Ellipse1329.png);
+    background-repeat: no-repeat;
+    background-size: 485px 162px;
+    background-position: 29px 6px;
 }
 
 .p17 {
@@ -696,4 +701,61 @@ span.accLine4 {
     position: absolute;
     right: 32px;
     padding: 17px 30px 15px 15px;
+}
+
+.reacts {
+    margin-top: 110px;
+    gap: 204px;
+    justify-content: center;
+}
+
+.reacts,
+.leftreactsside {
+    display: flex;
+    flex-direction: row;
+}
+
+.p22 {
+    width: 342px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #425466;
+}
+
+.p21 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #222831;
+}
+
+.reacts_box {
+    position: relative;
+    top: 17px;
+    right: 13px;
+    width: 300px;
+    height: 114px;
+    background: #FFFFFF;
+    border: 0.827586px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: 0px 53.6398px 38.7739px rgba(56, 56, 56, 0.0759259), 0px 31.8774px 21.0881px rgba(56, 56, 56, 0.0607407), 0px 16.5517px 10.7586px rgba(56, 56, 56, 0.05), 0px 6.7433px 5.39464px rgba(56, 56, 56, 0.0392593), 0px 1.53257px 2.60536px rgba(56, 56, 56, 0.0240741);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftreactsside {
+    background-image: url(./src/img/Ellipse1330.png);
+    background-repeat: no-repeat;
+    background-size: 406px 161px;
+    background-position: 30px 2px;
+    height: 400px;
 }
